@@ -28,4 +28,8 @@
 3. docker-compose up --build
 4. İlgili image oluşturulup container ile başlatılacaktır.
 
+## Admin Kullanıcı Adı ve Şifre Bilgileri
+1.     Kullanıcı Adı: "admin"
+2.     Şifre: "123"
+
 ## İşlemlerden öncesinde Sql Server veritabanı oluşturulmuş olması gerekir. Bunun için "YazOkuluDB" repository de ki ilgili README dosyasını okuyunuz.
