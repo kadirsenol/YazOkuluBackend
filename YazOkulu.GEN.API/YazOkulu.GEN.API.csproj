@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExtObject\YazOkulu.Extensions.csproj" />
+    <ProjectReference Include="..\YazOkulu.Extensions\YazOkulu.Extensions.csproj" />
     <ProjectReference Include="..\YazOkulu.Data\YazOkulu.Data.csproj" />
     <ProjectReference Include="..\YazOkulu.GENAppService\YazOkulu.GENAppService.csproj" />
   </ItemGroup>

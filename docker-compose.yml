@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  yazokulu-api:
+    build:
+      context: .
+      dockerfile: YazOkulu.GEN.API/Dockerfile
+    container_name: yazokulu-api
+    environment:
+      MSSQL_HOST: host.docker.internal
+      MSSQL_DATABASE: YazOkuluDB
+      MSSQL_USERNAME: halic
+      MSSQL_PASSWORD: "halic"
+      ASPNETCORE_ENVIRONMENT: Development
+    ports:
+      - "5273:8080"
+    networks:
+      - yazokulu-network
+
+networks:
+  yazokulu-network:
+    driver: bridge

@@ -39,6 +39,7 @@ builder.Services.AddDbContext<YazOkuluDbContext>(options =>
     options.UseSqlServer(sqlConnectionString);
 });
 #endregion
+
 #region cors
 builder.Services.AddCors(options => { options.AddPolicy("MyAllowSpecificOrigins", builder => { builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(); }); });
 #endregion cors

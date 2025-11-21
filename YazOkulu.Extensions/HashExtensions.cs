@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace YazOkulu.ExtObject
+namespace YazOkulu.Extensions
 {
     public static class HashExtensions
     {

@@ -16,7 +16,7 @@ namespace YazOkulu.Data.Context
         private readonly IHttpContextAccessor httpContextAccessor;
         public YazOkuluDbContext() : base() { }
         public YazOkuluDbContext(DbContextOptions<YazOkuluDbContext> options, IHttpContextAccessor _httpContextAccessor = null) : base(options) { if (_httpContextAccessor != null) httpContextAccessor = _httpContextAccessor; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { if (!optionsBuilder.IsConfigured) optionsBuilder.UseSqlServer("Server=localhost;Database=YazOkuluDB;User Id=halic;Password=halic;TrustServerCertificate=True;"); } // migration sonrası connection string kalkacak
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { if (!optionsBuilder.IsConfigured) optionsBuilder.UseSqlServer("connectionstrign"); } // migration sonrası connection string kalkacak
         #region GEN Models
         public DbSet<Course> Courses { get; set; } 
         public DbSet<Parameter> Parameters { get; set; }

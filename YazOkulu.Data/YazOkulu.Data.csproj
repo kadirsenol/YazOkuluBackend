@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExtObject\YazOkulu.Extensions.csproj" />
+    <ProjectReference Include="..\YazOkulu.Extensions\YazOkulu.Extensions.csproj" />
     <ProjectReference Include="..\YazOkulu.Core\YazOkulu.Core.csproj" />
   </ItemGroup>
 
