@@ -1,4 +1,4 @@
-# .NET Core Proje - README
+# Backend Proje (.Net Core Web API) - README
 
 ## Ön Koşullar
 - .NET 8.0 SDK
